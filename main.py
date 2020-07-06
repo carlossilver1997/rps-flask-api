@@ -21,7 +21,7 @@ import random
 
 app = Flask(__name__)
 
-@app.route('/index')
+@app.route('/index', methods=["POST"])
 def index():
     
     # Getting image from body request
