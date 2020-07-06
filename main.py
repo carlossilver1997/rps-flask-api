@@ -16,7 +16,6 @@ from os.path import isfile, join
 from PIL import Image
 import io
 
-import cv2
 import random
 
 app = Flask(__name__)
