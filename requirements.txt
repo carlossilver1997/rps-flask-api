@@ -16,10 +16,7 @@ google-auth==1.18.0
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 grpcio==1.30.0
-<<<<<<< HEAD
 gunicorn==20.0.4
-=======
->>>>>>> 099d1aa63d6464a2c1400ab0d11bbe706a266c14
 h5py==2.10.0
 html5lib==1.0.1
 idna==2.8
@@ -34,18 +31,11 @@ MarkupSafe==1.1.1
 msgpack==0.6.2
 numpy==1.19.0
 oauthlib==3.1.0
-<<<<<<< HEAD
-=======
-opencv-python==4.3.0.36
->>>>>>> 099d1aa63d6464a2c1400ab0d11bbe706a266c14
 opt-einsum==3.2.1
 packaging==20.3
 pep517==0.8.2
 Pillow==7.2.0
-<<<<<<< HEAD
 pkg-resources==0.0.0
-=======
->>>>>>> 099d1aa63d6464a2c1400ab0d11bbe706a266c14
 progress==1.5
 protobuf==3.12.2
 pyasn1==0.4.8
