@@ -1,0 +1,10 @@
+figure {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+img {
+    width: inherit;
+}

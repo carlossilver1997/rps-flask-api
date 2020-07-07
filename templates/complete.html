@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{super()}}
+    Rock, paper or scissors
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4 offset-4 card card-body" class="d-flex justify-content-center">
+            <h1 class="text-center">Rock, paper or scissors</h1>
+            <figure style="margin: auto;">
+                <img class="img-fluid" src="{{  url_for('static', filename='img/add_photo.png')}}" alt="add-photo">
+            </figure>
+            <form enctype=multipart/form-data method="post" class="mb-3">
+                <div class="form-group">
+                <label for="exampleFormControlFile1" class="text-center">Please select an image for knowing its class</label> <br>
+                <input type="file" class="form-control-file" name="file">
+                </div>
+                <br>
+                <input type="submit" value="Submit" class="btn btn-primary btn-lg btn-block">
+            </form>
+            <h4>
+                Image class: 
+                {% if classes == 1 %}
+                <b>Rock</b>
+                {% elif classes == 0 %}
+                <b>Paper</b>
+                {% elif classes == 2 %}
+                <b>Scissors</b>
+                {% endif %}
+            </h4>
+        </div>
+    </div>
+</div>
+{% endblock %}
